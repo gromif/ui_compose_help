@@ -14,7 +14,7 @@ import com.nevidimka655.ui.compose_core.PreferencesGroupTitle
 import com.nevidimka655.ui.compose_core.theme.spaces
 
 @Composable
-fun HelpScreen(modifier: Modifier = Modifier, list: List<Pair<Int, Int>>) = Column(
+fun HelpScreen(modifier: Modifier = Modifier, list: List<HelpItem>) = Column(
     modifier = modifier.padding(MaterialTheme.spaces.spaceMedium),
     verticalArrangement = Arrangement.spacedBy(MaterialTheme.spaces.spaceMedium),
 ) {
