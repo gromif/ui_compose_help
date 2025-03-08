@@ -1,4 +1,4 @@
-package com.nevidimka655.compose_help
+package io.gromif.compose_help
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
