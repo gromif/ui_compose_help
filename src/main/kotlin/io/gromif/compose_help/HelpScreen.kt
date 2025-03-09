@@ -10,8 +10,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
-import com.nevidimka655.ui.compose_core.PreferencesGroupTitle
-import com.nevidimka655.ui.compose_core.theme.spaces
+import io.gromif.ui.compose.core.PreferencesGroupTitle
+import io.gromif.ui.compose.core.theme.spaces
 
 @Composable
 fun HelpScreen(modifier: Modifier = Modifier, list: List<HelpItem>) = Column(
